@@ -1,0 +1,19 @@
+Question 1.
+    FastAPI was used in this exercise as it's my primary package to build APIs in Python. I used it's function to handle asynchronous operations within
+    the exercise.  To define a generic model, I used Pydantics BaseModel to build my own transaction model that I used in the add function. Uvicorn 
+    is a quick ASGI web server for Python, allowing me to host my API quickly. Given my familiarity with Python from previous experiences and projects, it 
+    was an obvious choice. I tested the API using Postman, sending an HTTP request and verifying the correct functionality, logic, and status code. 
+Question 2. 
+    Some common tools used to build APIs are Node.js. However, I decided to develop my exercise in Python due to the readable syntax as well as being easier to
+    develop.  Personally, Python is generally easier to write with fewer lines of code. FastAPI is also a modern framework to develop APIs, as it's comparable in performance to Node.js or Flask. 
+    FastAPI leverages Python's type hints to support developers. Although Python is generally slower than languages like Rust, Go, or Node. js especially in areas like concurrency, 
+    The scope of this project made speed less of a concern. FastAPI's ease of use made it a great fit for this exercise.
+Question 3. 
+    My favorite project I've done was an SpindleAPI, an API automation tool I co-developed during a hackathon at Georgia Tech. This project takes a natural
+    language query, MongoDB URI, and CSV to generate endpoints for your data. Alongside documentation, it's the ideal tool for new developers. 
+    to utilize when developing their backend systems. During this project, I learned new tools, including LangChain, MongoDB, and Postman. Previously,
+    my experience geared toward frontend design and implementation. However, I was placed on backend development during this project. The backend system 
+    followed a pipeline design, first collecting user information and then generating the required API endpoints. Additionally, documentation and AI-generated
+    Pictures were added for clarity.
+    
+    
